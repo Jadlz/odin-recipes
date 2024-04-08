@@ -1,19 +1,38 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
-* {
-    font-family: Verdana, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #aa7733;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 img {
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 
+.card {
+  width: auto;
+  background: #bb8855;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+}
+
+.list-container {
+  text-align: center;
+}
+
+.list{
+  display: inline-block;
+  text-align: left;
+}
